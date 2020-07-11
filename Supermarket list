@@ -8,4 +8,4 @@ while choice=="Y":
     costlist.append(cost)
     choice = input("Do you wanna add something more to the cart? Y/N\n")
 if choice=="N":
-    print("So your list have: \n", sc,"\nAnd you will pay U$", sum(costlist))
+    print("So your list have: \n", sc,"\nAnd you will pay US$", sum(costlist))
