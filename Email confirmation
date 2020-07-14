@@ -1,5 +1,5 @@
 import re
 
 text="joao@.. jose@gmail. jeremias@gmail.com @gmail. @gmail.com @gmail jeremias@gmail jonathan@ @"
-compiler = re.compile("[a-zA-Z0-9]+@[a-z]+\.[a-z]+")
+compiler = re.compile("[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
 print(compiler.search(text))
